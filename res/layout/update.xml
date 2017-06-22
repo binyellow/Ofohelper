@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:id="@+id/update_TVnumber"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="请输入要修改的车牌号"
+            android:textSize="15sp" />
+        <EditText 
+            android:id="@+id/update_ETnumber"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="6"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:id="@+id/update_TVpassword"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="请输入要修改的密码"
+            android:textSize="15sp" />
+        <EditText 
+            android:id="@+id/update_ETpassword"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="6"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:background="@drawable/shape"
+        android:layout_gravity="center" />
+	
+</LinearLayout>
